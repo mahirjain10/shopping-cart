@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="store.css">
+    </link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="CSS/all.css"> -->
+    <!-- <link rel="stylesheet" href="./icons/shopping-cart-solid.svg"> -->
+    <script src="./jquery/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1 id="head">Shri Rajendrasuri Dryfruits Centre</h1>
+        <div id="div">
+            <div id="log-sign-shop">
+                <button id="login-btn" class="button">LOGIN</button>
+                    <button id="signup-btn" class="button">SIGN UP</button>
+                    <img src="icons/shopping-cart-solid.svg" id="shopping-cart"></img>
+            </div>
+        </div>
+    </div>
+    <h2 id="product-text">Products</h2>
+            <div id="slider-hide" class="slider-class">
+                <div id="upper">
+                <button id="exit-slider">X</button>
+                <h2 id="cart-head">Cart</h2>
+                </div>
+                <div id="middle">
+                    </div>
+                <div id="lower">
+                    <h3 id="total-head">Total : <span id="total-span">0</span></h3>
+                    <button id="checkout-btn">Checkout</button>
+                    <button id="empty-cart">Empty Cart</button>
+                    </div>      
+                </div>
+            <div id="popup-login" class="popup-class-log">
+                <button id="cancel-btn"><span id="cancel-span">X</span></button>
+                <h2 id="login-head">LOGIN</h2><br>
+                <div id="wrapper-login">
+                <span id="text-usrname" class="field-name">Username : </span><input type="text" id="usrname" class="input"placeholder="Enter Username Here"></input><br>
+                <span id="text-password" class="field-name">Password : </span><input type="password" id="password" class="input"placeholder="Enter Password Here"></input>
+                <p id="forgot">forgot id/password</p>
+                </div>
+                <button id="login-submit"><span id="login-span">LOGIN</span></button>
+            </div>
+            <div id="popup-signup" class="popup-class-sign">
+                <button id="cancel-btn-sign"><span id="cancel-span">X</span></button>
+                <h2 id="signup-head">SIGN UP</h2><br>
+                <span id="text-name" class="field-name-sign">Name : </span><input type="text" id="name" placeholder="Enter Name Here" class="input-sign"></input><br>
+                <span id="text-email" class="field-name-sign">Email : </span><input type="email" id="email" placeholder="Enter Email Here" class="input-sign"></input><br>
+                <span id="text-create-password" class="field-name-sign">Create Password : </span><input type="text" id="pass" placeholder="Enter Password Here" class="input-sign"></input><br>
+                <span id="text-confirm-password" class="field-name-sign">Confirm Password : </span><input type="password" id="confirm-pass" placeholder="Enter Password Again" class="input-sign"></input><br>
+                <button id="create"><span id="span-create">CREATE</button>
+                </div>
+            </div>
+        </div>        
+    <div id="items">
+        <div id="outer-wrapper-1" class="o-wrapper">
+            <div id="inner-wrapper-1" class="i-wrapper">
+                <img src="dryfruits images/badam large.jpg" id="first-img"></img>
+                <span id="df-name-1" class="df-name-class">BADAM</span><br>
+                <span id="price-text-1" class="price-text-class">&#8377; <span id="price-num-1" class="price-num-span">700</span></span>
+                <button id = "add-to-cart-1" class="atc"><span id="atc-span-1" class="atc-span-class">Add To Cart</span></button>
+                <button id="remove-items-1" class="ric"><span id="remove-span-1" class="remove-span-class">Remove Items</span></button>
+                <p id="1" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+            </div>
+        </div>
+        <div id="outer-wrapper-2" class="o-wrapper">
+            <div id="inner-wrapper-2" class="i-wrapper">
+                <img src="dryfruits images/kaju.jpg" id="second-img"></img>
+                <span id="df-name-2" class="df-name-class">KAJU</span><br>
+                <span id="price-text-2" class="price-text-class">&#8377; <span id="price-num-2" class="price-num-span">1200</span></span>
+                <button id = "add-to-cart-2" class="atc"><span id="atc-span-2" class="atc-span-class">Add To Cart</span></button>
+                <button id="remove-items-2" class="ric"><span id="remove-span-2" class="remove-span-class">Remove Items</span></button>
+                <p id="2" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+            </div>
+        </div>
+    <div id="outer-wrapper-3" class="o-wrapper">
+        <div id="inner-wrapper-3" class="i-wrapper">
+            <img src="dryfruits images/pista.jpg" id="third-img"></img>
+            <span id="df-name-3" class="df-name-class">PISTA</span><br>
+            <span id="price-text-3" class="price-text-class">&#8377; <span id="price-num-3" class="price-num-span">1300</span></span>
+            <button id = "add-to-cart-3" class="atc"><span id="atc-span-3" class="atc-span-class">Add To Cart</span></button>
+            <button id="remove-items-3" class="ric"><span id="remove-span-3" class="remove-span-class">Remove Items</span></button>
+            <p id="3" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+        </div>
+    </div> 
+    <div id="outer-wrapper-4" class="o-wrapper">
+        <div id="inner-wrapper-4" class="i-wrapper">
+            <img src="dryfruits images/green raisins.jpg" id="fourth-img"></img>
+            <span id="df-name-4" class="df-name-class">GREEN RAISINS</span><br>
+            <span id="price-text-4" class="price-text-class">&#8377; <span id="price-num-4" class="price-num-span">550</span></span>
+            <button id = "add-to-cart-4" class="atc"><span id="atc-span-4" class="atc-span-class">Add To Cart</span></button>
+            <button id="remove-items-4" class="ric"><span id="remove-span-4"  class="remove-span-class">Remove Items</span></button>
+            <p id="4" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+            
+        </div>
+    </div>
+     <div id="outer-wrapper-5" class="o-wrapper">
+        <div id="inner-wrapper-5" class="i-wrapper">
+            <img src="dryfruits images/black raisins.jpg" id="fifth-img"></img>
+            <span id="df-name-5" class="df-name-class">BLACK RAISINS</span><br>
+            <span id="price-text-5" class="price-text-class">&#8377; <span id="price-num-5" class="price-num-span">420</span></span>
+            <button id = "add-to-cart-5" class="atc"><span id="atc-span-5" class="atc-span-class">Add To Cart</span></button>
+            <button id="remove-items-5" class="ric"><span id="remove-span-5" class="remove-span-class">Remove Items</span></button>
+            <p id="5" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+
+        </div>
+    </div>
+    <div id="outer-wrapper-6" class="o-wrapper">
+        <div id="inner-wrapper-6" class="i-wrapper">
+            <img src="dryfruits images/walnuts.jpg" id="sixth-img"></img>
+            <span id="df-name-6" class="df-name-class">CHILE WALNUTS</span><br>
+            <span id="price-text-6" class="price-text-class">&#8377; <span id="price-num-6" class="price-num-span">1400</span></span>
+            <button id = "add-to-cart-6" class="atc"><span id="atc-span-6" class="atc-span-class">Add To Cart</span></button>
+            <button id="remove-items-6" class="ric"><span id="remove-span-6" class="remove-span-class">Remove Items</span></button>
+            <p id="6" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+
+            
+        </div>
+    </div>
+    <div id="outer-wrapper-7" class="o-wrapper">
+        <div id="inner-wrapper-7" class="i-wrapper">
+            <img src="dryfruits images/jagdaru.jfif" id="seventh-img"></img>
+            <span id="df-name-7" class="df-name-class">JAGDARU</span><br>
+            <span id="price-text-7" class="price-text-class">&#8377; <span id="price-num-7" class="price-num-span">650</span></span>
+            <button id = "add-to-cart-7" class="atc"><span id="atc-span-7" class="atc-span-class">Add To Cart</span></button>
+            <button id="remove-items-7" class="ric"><span id="remove-span-7" class="remove-span-class">Remove Items</span></button>
+            <p id="7" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+
+
+        </div>
+    </div>
+    <div id="outer-wrapper-8" class="o-wrapper">
+        <div id="inner-wrapper-8" class="i-wrapper">
+            <img src="dryfruits images/anjeer.jpg" id="eighth-img"></img>
+            <span id="df-name-8" class="df-name-class">ANJEER</span><br>
+            <span id="price-text-8" class="price-text-class">&#8377; <span id="price-num-8" class="price-num-span">1000</span></span>
+            <button id = "add-to-cart-8" class="atc"><span id="atc-span-8" class="atc-span-class">Add To Cart</span></button>
+            <button id="remove-items-8" class="ric"><span id="remove-span-8" class="remove-span-class">Remove Items</span></button>
+            <p id="8" class="show-here">Product Added To Cart</p>
+                <p class="rm-show-here">Product Removed From Cart</p>
+
+        </div>
+    </div> 
+</div>
+    <script src="store.js"></script>
+    <script src="cart.js"></script>
+
+</body>
+
+</html>
